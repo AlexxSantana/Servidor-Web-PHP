@@ -1,0 +1,63 @@
+<HTML>
+<HEAD> <TITLE> DATOS ALUMNOS - VALIDACIÓN  </TITLE>
+<style>
+label{
+  display: inline-block;
+  width: 80px;
+}
+
+</style>
+</HEAD>
+<BODY>
+
+
+<H1> DATOS ALUMNOS </h1>
+
+<form name='mi_formulario' action='datos.php' method='POST'>
+
+<label>Nombre:</label>
+<input type='text' name='nombre' value='' >
+<span class="error">*Obligatorio</span><br><br>
+<label>Apellido1:</label>
+<input type='text' name='apellido1' value=''><br><br>
+<label>Apellido2:</label>
+<input type='text' name='apellido2' value=''><br><br>
+<label>Email:</label>
+<input type='text' name='email' value=''>
+<span class="error">*Obligatorio</span><br><br>
+<label>Sexo:</label>
+<input type='radio' name='sexo' value='M'>Mujer 
+<input type='radio' checked name='sexo' value='H'>Hombre &nbsp;&nbsp;
+<span class="error">*Obligatorio</span><br><br>
+
+<input type="submit" value="enviar">
+<input type="reset" value="borrar">
+<br><br><br><br>
+
+
+<H1> DATOS ALUMNOS </h1>
+<form name='mi_formulario' action='datos.php' method='POST'>
+
+<label for="nombre2">Nombre:</label>
+<input type='text' name='nombre2' value=''>
+<span class="error">*Obligatorio</span><br><br>
+<label>Apellido1:</label>
+<input type='text' name='ape1-2' value=''><br><br>
+<label>Apellido2:</label>
+<input type='text' name='ape2' value=''><br><br>
+<label>Email:</label>
+<input type='text' name='email2' value=''>
+<span class="error">*Obligatorio</span><br><br>
+<label>Sexo:</label>
+<input type='radio' name='sexo2' value='M'>Mujer 
+<input type='radio' name='sexo2' checked value='H'>Hombre &nbsp;&nbsp;
+<span class="error">*Obligatorio</span><br><br>
+
+<input type="submit" value="enviar">
+<input type="reset" value="borrar">
+
+
+
+</FORM>
+</BODY>
+</HTML>

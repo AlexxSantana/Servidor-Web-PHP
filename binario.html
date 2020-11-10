@@ -1,0 +1,33 @@
+<HTML>
+<HEAD> <TITLE> CONVERSOR BINARIO </TITLE>
+</HEAD>
+<BODY>
+<!-- Un formulario debe empezar siempre con una etiqueta de este tipo 
+      <form ...>en el que será obligatorio indicar con esta sintaxis
+	 action='nombre.extension'
+	 nombre.extension debe contener el nombre (o la ruta completa
+	 en el caso de que estuviera en un directorio o hosting distinto
+	 del que alberga el documento que contiene el formulario desde
+	 el que se realiza la petición
+
+	 es opcional incluir method que puede tener dos valores
+	 method='GET' ó method='POST', por defecto (cuando no se indica)
+	 el envio se realizará usando method='GET'
+      
+	 también es opcional -a los efectos de PHP- incluir name
+	 ese valor es útil cuando se incluyen scripts del lado del cliente
+	 del tipo JavaScript  //-->
+<h1>CONVERSOR BINARIO</h1>
+<form name='mi_formulario' action='binario.php' method='post'>
+
+<label>Numero decimal: </label>
+<input type='text' name='operando1' value='' size=15><br><br>
+
+<!--<input type="hidden" name='oculto' value='Esto iría oculto'><br>-->
+<input type="submit" value="enviar">
+
+<input type="reset" value="borrar">
+
+</FORM>
+</BODY>
+</HTML>
